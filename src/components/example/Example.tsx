@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Example.css";
 import { ExampleProps } from "./Example.types";
 
-const SmartRating: React.FC<ExampleProps> = (props) => {
+const Example: React.FC<ExampleProps> = (props) => {
     const stars = Array.from({ length: 5 }, (_, i) => i + 1);
     const [rating, setRating] = useState(0);
     return (
@@ -26,4 +26,4 @@ const SmartRating: React.FC<ExampleProps> = (props) => {
     );
 };
 
-export default SmartRating;
+export default Example;
