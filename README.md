@@ -1,3 +1,3 @@
 THE UI Library for Cornell Hack4Impact
 
-Currently in development...
+To start StoryBook, run `npm run storybook` after downloading node dependencies with `npm install`
