@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Example.css";
 import { ExampleProps } from "./Example.types";
 
-const Example: React.FC<ExampleProps> = (props) => {
+export const Example: React.FC<ExampleProps> = (props) => {
     const stars = Array.from({ length: 5 }, (_, i) => i + 1);
     const [rating, setRating] = useState(0);
     return (
@@ -25,5 +25,3 @@ const Example: React.FC<ExampleProps> = (props) => {
         </div>
     );
 };
-
-export default Example;
